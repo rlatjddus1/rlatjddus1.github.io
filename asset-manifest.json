@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.fbb8621a.css",
-    "main.js": "/static/js/main.a0649f40.js",
+    "main.js": "/static/js/main.c0f96edc.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.aea8c265.chunk.css": "/static/css/769.aea8c265.chunk.css",
-    "static/js/769.b486ca68.chunk.js": "/static/js/769.b486ca68.chunk.js",
+    "static/js/769.0bc029f0.chunk.js": "/static/js/769.0bc029f0.chunk.js",
     "static/media/2024_sejong.png": "/static/media/2024_sejong.77716886e089f79c571e.png",
     "static/media/우수논문상.jpg": "/static/media/우수논문상.12fb92ff2ddba238872e.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -23,14 +23,14 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.fbb8621a.css.map": "/static/css/main.fbb8621a.css.map",
-    "main.a0649f40.js.map": "/static/js/main.a0649f40.js.map",
+    "main.c0f96edc.js.map": "/static/js/main.c0f96edc.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.aea8c265.chunk.css.map": "/static/css/769.aea8c265.chunk.css.map",
-    "769.b486ca68.chunk.js.map": "/static/js/769.b486ca68.chunk.js.map"
+    "769.0bc029f0.chunk.js.map": "/static/js/769.0bc029f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbb8621a.css",
-    "static/js/main.a0649f40.js"
+    "static/js/main.c0f96edc.js"
   ]
 }
