@@ -14,13 +14,13 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+        <h1 className="prof-title">Profile</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
+          
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -41,6 +41,63 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
+            <div className="profile-info">
+
+              <div className="info-card">
+                <div className="info-title">🎓 학력</div>
+                <div className="info-content">
+                  창원대학교 컴퓨터공학과<br/>
+                  학점 : 3.28 / 4.5<br/>
+                  2026.08 졸업 예정
+                </div>
+              </div>
+
+              <div className="info-card">
+                <div className="info-title">🔬 연구 및 활동</div>
+                <div className="info-content">
+                  학부연구생<br />
+                  Computer Vision 연구<br />
+                  실시간 객체 탐지 시스템 개발
+                </div>
+              </div>
+
+              <div className="info-card">
+                <div className="info-title">🏆 수상 및 성과</div>
+                <div className="info-content">
+                  세종시 자율주행 AI 경진대회 3등
+                  <br />
+                  KIIECT 우수논문상
+                </div>
+              </div>
+
+              <div className="info-card">
+                <div className="info-title">📫 Contact</div>
+                <div className="info-content">
+                  Email : rlatjddus234@gmail.com<br />
+                  GitHub : github.com/rlatjddus1<br />
+                  Phone : 82+010-6685-4561
+                </div>
+              </div>
+
+              <div className="info-card">
+                <div className="info-title">🚀 관심 분야</div>
+                <div className="info-content">
+                  Computer Vision<br />
+                  Embedded System<br />
+                  System Programming
+                </div>
+              </div>
+
+              <div className="info-card">
+                <div className="info-title">🌱 학습 중</div>
+                <div className="info-content">
+                  Embedded System<br/>
+                  Operating System<br/>
+                  Network
+                </div>
+              </div>
+
+            </div>
             <div className="opp-div">
               <span className="desc-prof">
                 Open for opportunities: {prof.hireable}

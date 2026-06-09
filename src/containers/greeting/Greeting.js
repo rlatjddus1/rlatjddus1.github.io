@@ -37,7 +37,7 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <div id="resume" className="empty-div"></div>
-              <SocialMedia />
+              
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (

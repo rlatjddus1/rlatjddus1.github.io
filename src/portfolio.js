@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Kim SungYeon",
-  title: "포기하지 않는 지원자 김성연입니다.",
+  title: "안녕하세요! 포기하지 않는 지원자 김성연입니다.",
   subTitle: emoji(
     "Computer Vision, AI, Embedded Software 분야에 관심을 가지고 있으며 실제 환경의 문제를 해결하는 AI 시스템을 연구하고 개발하고 있습니다. YOLOv8, U-Net, Docker 기반 프로젝트 경험을 보유하고 있습니다."
   ),
@@ -105,10 +105,11 @@ const educationInfo = {
       logo: require("./assets/images/changwonUnivercity.jpg"),
       subHeader: "Major - Computer Science",
       duration: "2020.03 - 2026.08(예정)",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "분산멀티미디어 연구실에서 학부 연구생으로 활동했으며, 논문을 쓰거나 여러 학회에 참가 할 수 있었습니다.",
       descBullets: [
-        "대충 어디어디 논문 투고",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "GloSea6에서 YOLOv8을 활용한 시각장애인 보행자 위험 감지 기법",
+        "기상 예측 모델의 Localization을 위한 Docker 기반 Containerization 기법 연구",
+        "제주공항 공항·기상 데이터 기반 Go-Around 예측 모델 연구"
       ]
     }
   ]
@@ -117,7 +118,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -172,21 +173,21 @@ const bigProjects = {
 
   projects: [
     {
-      image: require("./assets/images/harvardLogo.png"),
+      image: require("./assets/images/2024_sejong.png"),
       projectName: "AI 기반 객체 탐지 및 위험 분석 시스템",
       projectDesc:
-        "YOLOv8과 U-Net을 활용한 실시간 위험 감지 시스템. 세종시 자율주행 AI 경진대회 3등 수상."
+        "YOLOv8과 U-Net을 활용한 보행자 및 도로 구별시스템. 세종시 자율주행 AI 경진대회 3등 수상."
     },
 
     {
-      image: require("./assets/images/harvardLogo.png"),
+      image: require("./assets/images/Help_System.gif"),
       projectName: "시각장애인 보행 보조 시스템",
       projectDesc:
         "YOLOv8, MiDaS, Kalman Filter 기반 실시간 위험 감지 및 음성 안내 시스템."
     },
 
     {
-      image: require("./assets/images/harvardLogo.png"),
+      image: require("./assets/images/Docker_Structure.png"),
       projectName: "Low-GloSea6 Docker Containerization",
       projectDesc:
         "기상예측모델 Low-GloSea6를 Docker 환경으로 컨테이너화하여 설치 및 운영 효율 개선."
@@ -208,7 +209,7 @@ const achievementSection = {
       title: "세종시 자율주행 AI 경진대회 3등",
       subtitle:
         "YOLOv8 및 U-Net 기반 객체 탐지 및 위험 분석 시스템 개발",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/2024_sejong2.png"),
       imageAlt: "Award",
       footerLink: []
     },
@@ -216,7 +217,7 @@ const achievementSection = {
       title: "KIIECT 추계종합학술발표회 우수논문상",
       subtitle:
         "AI 기반 위험 감지 시스템 연구 논문 발표",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/우수논문상.jpg"),
       imageAlt: "Paper Award",
       footerLink: []
     }
@@ -287,15 +288,15 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: "HI",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "많은 관심 가져주셔서 감사합니다.",
+  number: "+82-01066854561",
+  email_address: "rlatjddus234@gmail.com"
 };
 
 // Twitter Section

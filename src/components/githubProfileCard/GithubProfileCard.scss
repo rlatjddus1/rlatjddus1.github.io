@@ -5,10 +5,43 @@
   border: 0.5rem solid $githubProfileCardBorder;
   margin-left: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 450px;
   height: auto;
   box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
+}
+
+.profile-info {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+
+.info-card {
+  background: rgba(128, 159, 243, 0.349);
+  border-radius: 15px;
+  padding: 15px 20px;
+  width: 280px;
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.info-content {
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .profile-image:hover {
@@ -34,7 +67,7 @@
 }
 
 .main-content-profile {
-  flex: 80%;
+  flex: 70%;
 }
 
 .image-content-profile {
