@@ -104,7 +104,7 @@ const educationInfo = {
       schoolName: "Changwon University",
       logo: require("./assets/images/changwonUnivercity.jpg"),
       subHeader: "Major - Computer Science",
-      duration: "2020.03 - 2026.08(예정)",
+      duration: "2020.03 - 2026.08(졸업))",
       desc: "분산멀티미디어 연구실에서 학부 연구생으로 활동했으며, 논문을 쓰거나 여러 학회에 참가 할 수 있었습니다.",
       descBullets: [
         "GloSea6에서 YOLOv8을 활용한 시각장애인 보행자 위험 감지 기법",
