@@ -20,7 +20,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-          
+
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -42,12 +42,13 @@ export default function GithubProfileCard({prof}) {
               </div>
             )}
             <div className="profile-info">
-
               <div className="info-card">
                 <div className="info-title">🎓 학력</div>
                 <div className="info-content">
-                  창원대학교 컴퓨터공학과<br/>
-                  학점 : 3.28 / 4.5<br/>
+                  창원대학교 컴퓨터공학과
+                  <br />
+                  학점 : 3.28 / 4.5
+                  <br />
                   2026.08 졸업 예정
                 </div>
               </div>
@@ -55,8 +56,10 @@ export default function GithubProfileCard({prof}) {
               <div className="info-card">
                 <div className="info-title">🔬 연구 및 활동</div>
                 <div className="info-content">
-                  학부연구생<br />
-                  Computer Vision 연구<br />
+                  학부연구생
+                  <br />
+                  Computer Vision 연구
+                  <br />
                   실시간 객체 탐지 시스템 개발
                 </div>
               </div>
@@ -73,8 +76,10 @@ export default function GithubProfileCard({prof}) {
               <div className="info-card">
                 <div className="info-title">📫 Contact</div>
                 <div className="info-content">
-                  Email : rlatjddus234@gmail.com<br />
-                  GitHub : github.com/rlatjddus1<br />
+                  Email : rlatjddus234@gmail.com
+                  <br />
+                  GitHub : github.com/rlatjddus1
+                  <br />
                   Phone : 82+010-6685-4561
                 </div>
               </div>
@@ -82,8 +87,10 @@ export default function GithubProfileCard({prof}) {
               <div className="info-card">
                 <div className="info-title">🚀 관심 분야</div>
                 <div className="info-content">
-                  Computer Vision<br />
-                  Embedded System<br />
+                  Computer Vision
+                  <br />
+                  Embedded System
+                  <br />
                   System Programming
                 </div>
               </div>
@@ -91,16 +98,16 @@ export default function GithubProfileCard({prof}) {
               <div className="info-card">
                 <div className="info-title">🌱 학습 중</div>
                 <div className="info-content">
-                  Embedded System<br/>
-                  Operating System<br/>
+                  Embedded System
+                  <br />
+                  Operating System
+                  <br />
                   Network
                 </div>
               </div>
             </div>
             <div className="opp-div">
-              <span className="desc-prof">
-                  
-              </span>
+              <span className="desc-prof"></span>
             </div>
             <SocialMedia />
           </div>

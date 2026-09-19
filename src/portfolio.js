@@ -146,8 +146,7 @@ const workExperiences = {
       company: "Division Multimedia Systems",
       companylogo: require("./assets/images/dms.png"),
       date: "2023 - 2026",
-      desc:
-        "분산 멀티미디어 연구실",
+      desc: "분산 멀티미디어 연구실",
       descBullets: [
         "YOLOv8 객체 탐지 연구",
         "U-Net Semantic Segmentation 연구",
@@ -207,16 +206,14 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "세종시 자율주행 AI 경진대회 3등",
-      subtitle:
-        "YOLOv8 및 U-Net 기반 객체 탐지 및 위험 분석 시스템 개발",
+      subtitle: "YOLOv8 및 U-Net 기반 객체 탐지 및 위험 분석 시스템 개발",
       image: require("./assets/images/2024_sejong2.png"),
       imageAlt: "Award",
       footerLink: []
     },
     {
       title: "KIIECT 추계종합학술발표회 우수논문상",
-      subtitle:
-        "AI 기반 위험 감지 시스템 연구 논문 발표",
+      subtitle: "AI 기반 위험 감지 시스템 연구 논문 발표",
       image: require("./assets/images/우수논문상.jpg"),
       imageAlt: "Paper Award",
       footerLink: []
@@ -293,8 +290,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: "HI",
-  subtitle:
-    "많은 관심 가져주셔서 감사합니다.",
+  subtitle: "많은 관심 가져주셔서 감사합니다.",
   number: "+82-01066854561",
   email_address: "rlatjddus234@gmail.com"
 };
