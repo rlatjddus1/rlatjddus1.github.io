@@ -49,7 +49,7 @@ export default function GithubProfileCard({prof}) {
                   <br />
                   학점 : 3.28 / 4.5
                   <br />
-                  2026.08 졸업 예정
+                  2026.08 졸업
                 </div>
               </div>
 
